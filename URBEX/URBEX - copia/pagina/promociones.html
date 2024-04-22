@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Urbex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="urbex logo.jpg" height="140" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="urbex.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+        <form class="search-filters">
+            <input type="text" placeholder="Buscar...">
+            <select name="tipo-propiedad">
+                <option value="">Tipo de Propiedad</option>
+                <option value="chalet">Chalet</option>
+                <option value="departamento">Departamento</option>
+                <option value="casa">Casa</option>
+            </select>
+            <select name="tipo-operacion">
+                <option value="">Tipo de Operación</option>
+                <option value="venta">Venta</option>
+                <option value="alquiler">Alquiler</option>
+            </select>
+            <select name="rango-precio">
+                <option value="">Rango de Precio</option>
+                <option value="100000">+100.000 USD</option>
+                <option value="-100000">-100.000 USD</option>
+                <option value="50000">+50.000 USD</option>
+                <option value="-50000">-50.000 USD</option>
+            </select>
+            <button type="button">Buscar</button>
+        </form>
+    </header>
+    <main>
+        <div>
+            <h2>Promociones</h2>
+            <p>Aquí encontrarás nuestras últimas promociones y ofertas especiales:</p>
+            <ul>
+                <li>
+                    <h3>Promoción de Invierno</h3>
+                    <p>¡Aprovecha nuestra promoción especial para la temporada de invierno! Descuentos exclusivos en alquileres de departamentos y casas durante los meses de junio a agosto.</p>
+                </li>
+                <li>
+                    <h3>Descuento por Pago Anticipado</h3>
+                    <p>Obtén un descuento del 10% en el precio de venta al pagar tu propiedad de contado antes del 31 de diciembre.</p>
+                </li>
+                <li>
+                    <h3>Financiación a Medida</h3>
+                    <p>Te ofrecemos planes de financiación flexibles para la compra de tu nueva casa o departamento. ¡Consulta con nuestros asesores para encontrar la mejor opción para ti!</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

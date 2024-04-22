@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0c7489;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px; /* Tamaño del título aumentado */
+    font-family: Lucida Sans, sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Cambiado a blanco */
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.center {
+    text-align: center; /* Alineación al centro */
+}
+
+.section-title {
+    color: black; /* Color negro para los títulos de las secciones */
+}
+
+.search input,
+.filters select {
+    padding: 10px; /* Aumentar el padding */
+    margin-bottom: 10px; /* Añadir espacio entre elementos */
+}
+
+.search button {
+    padding: 10px 20px; /* Aumentar el padding */
+    background-color: #119da4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.filters select {
+    background-color: #ffffff; /* Color de fondo blanco para los selectores */
+    color: black; /* Texto negro para los selectores */
+    margin-right: 10px;
+    margin-bottom: 10px; /* Añadir espacio entre elementos */
+}

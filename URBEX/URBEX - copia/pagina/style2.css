@@ -1,0 +1,123 @@
+
+header {
+    background-color: #094C69;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-family: Lucida Sans, sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.search-filters {
+    display: flex;
+    align-items: center;
+}
+
+.search-filters input,
+.search-filters select {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.search-filters button {
+    padding: 8px 16px;
+    background-color: #094C69;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    background-color: #094C69;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-family: Lucida Sans, sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.property {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.property h3 {
+    margin-top: 0;
+}
+
+.property p {
+    margin: 5px 0;
+}
+
+.property button {
+    padding: 8px 16px;
+    background-color: #094C69;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #FFFEF7;
+}
